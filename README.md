@@ -56,4 +56,7 @@ java -jar -Xmx256M target/rabbitmq-cron.jar \
     --spring.rabbitmq.password=guest
 ```
 
+> [!WARNING]
+> Ensure that this service is initially started before other dependent services, as it creates durable scheduler exchange
+
 Also available on [Docker Hub](https://hub.docker.com/r/wilddev/rabbitmq-cron)
