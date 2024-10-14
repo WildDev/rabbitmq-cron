@@ -9,7 +9,7 @@ so you need to run only one auto-restart replica. Well-suited for small and medi
 
 1. Build & Run
 2. Fork it by creation of any queue
-3. Bind the queue to `scheduler` exchange with a predefined routing key (e.g. `minute` or `second`)
+3. Bind the queue to `scheduler` exchange with a predefined routing key (e.g. `minute`, `second`, `hour-quarter`)
 
 Sample `new-items-poll-tick-queue` configuration:
 
