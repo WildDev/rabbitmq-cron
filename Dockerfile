@@ -7,7 +7,7 @@ RUN --mount=type=cache,target=$MAVEN_CONFIG mvn clean package
 
 FROM eclipse-temurin:20-jre
 
-ENV JAVA_OPTS=-Xmx256M
+ENV JAVA_OPTS=-Xmx14M
 ENV RABBIT_HOST=rabbitmq
 ENV RABBIT_USER=guest
 ENV RABBIT_PASS=guest
