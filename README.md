@@ -48,7 +48,7 @@ Checkout the project and build it using `mvn package` command
 An example run:
 
 ```cmd
-java -jar -Xmx256M target/rabbitmq-cron.jar \
+java -jar -Xmx14M target/rabbitmq-cron.jar \
     --server.port=8000 \
     --spring.rabbitmq.host=rabbitmq \
     --spring.rabbitmq.port=5671 \
