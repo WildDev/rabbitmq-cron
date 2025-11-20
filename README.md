@@ -60,3 +60,15 @@ java -jar -Xmx14M target/rabbitmq-cron.jar \
 > Ensure that this service is initially started before other dependent services, as it creates durable scheduler exchange
 
 Also available on [Docker Hub](https://hub.docker.com/r/wilddev/rabbitmq-cron)
+
+### License
+
+*This project is licensed under the Apache License 2.0.*
+
+Dependencies:
+
+- Spring Boot (Apache 2.0)
+- FasterXML (Apache 2.0)
+- Lombok (MIT)
+
+See [LICENSE](LICENSE) and [NOTICE](NOTICE) files for details.
